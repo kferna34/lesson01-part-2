@@ -1,5 +1,5 @@
 ﻿using System;
-using week01_02
+using week01_02;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
@@ -15,7 +15,7 @@ namespace lesson1BTest
             string outputString ="Enter UserName: ";
             bool hasNewLine = false;
             string actualResult;
-            string expectedResult= "Enter Name:";
+            string expectedResult= "Enter UserName: ";
 
             //act--accessing method --fail
             actualResult =Program.OutputStringToConsole(outputString,hasNewLine);
