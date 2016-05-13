@@ -26,9 +26,9 @@ namespace week01_02
         public static string GetUserName()
         {
             //initialize var || set username
-        
+
             string UserName = "";
-            Console.Write("Enter UserName:");
+            OutputStringToConsole("Enter UserName:", false);
             UserName = Console.ReadLine();
 
             //shows the username entered
@@ -36,6 +36,22 @@ namespace week01_02
             Console.WriteLine("You entered:" + UserName);
 
             return UserName;
+
+        }
+        //condition for the display of username.. same line or not
+        private static string OutputStringToConsole(string outputstring, bool hasNewLine)
+        {
+            if (hasNewLine)
+            {
+                Console.WriteLine(outputstring);
+            }
+            else
+            {
+                Console.Write(outputstring);
+            }
+
+            return outputstring;
         }
     }
 }
+
