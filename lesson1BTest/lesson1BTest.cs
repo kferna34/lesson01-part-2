@@ -14,6 +14,9 @@ namespace lesson1BTest
     public class lesson1BTest
     {
         [TestMethod]
+        /*
+        *test for outputStrignto console of the program class
+        */
         public void OutputStringToConsoleTestMethod()
         {
             //arrange -- var
