@@ -22,6 +22,7 @@ namespace week01_02
         *reads the username from the console
         *@method getusername
         *@return{string} username
+        *version 4-- extracted ouputstringtoconsole from getusename method
         */
         public static string GetUserName()
         {
@@ -39,6 +40,7 @@ namespace week01_02
 
         }
         //condition for the display of username.. same line or not
+        
         private static string OutputStringToConsole(string outputstring, bool hasNewLine)
         {
             if (hasNewLine)
