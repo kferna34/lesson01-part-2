@@ -25,7 +25,8 @@ namespace week01_02
         */
         public static string GetUserName()
         {
-            //initialize var
+            //initialize var || set username
+        
             string UserName = "";
             Console.Write("Enter UserName:");
             UserName = Console.ReadLine();
