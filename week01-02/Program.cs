@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 */
 namespace week01_02
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
@@ -41,7 +41,7 @@ namespace week01_02
         }
         //condition for the display of username.. same line or not
         
-        private static string OutputStringToConsole(string outputstring, bool hasNewLine)
+        public static string OutputStringToConsole(string outputstring, bool hasNewLine)
         {
             if (hasNewLine)
             {
