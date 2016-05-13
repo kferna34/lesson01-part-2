@@ -15,12 +15,24 @@ namespace week01_02
     {
         static void Main(string[] args)
         {
+            GetUserName();
         }
+        /*
+        *reads the username from the console
+        *@method getusername
+        *@return{string} username
+        */
         public static string GetUserName()
         {
             //initialize var
             string UserName = "";
-            UserName= Console.ReadLine();
+            Console.Write("Enter UserName:");
+            UserName = Console.ReadLine();
+
+            Console.WriteLine("/n========================");
+            Console.WriteLine("You entered:" + UserName);
+
+            return UserName;
         }
     }
 }
