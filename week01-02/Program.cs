@@ -42,15 +42,19 @@ namespace week01_02
         //condition for the display of username.. same line or not
         
         public static string OutputStringToConsole(string outputstring, bool hasNewLine)
+
         {
-            if (hasNewLine)
-            {
-                Console.WriteLine(outputstring);
-            }
-            else
-            {
-                Console.Write(outputstring);
-            }
+           string suffixString= hasNewLine ? "\n" : "";
+            Console.Write(outputstring + suffixString);
+
+            //if (hasNewLine)
+            //{
+            //    Console.WriteLine(outputstring);
+            //}
+            //else
+            //{
+            //    Console.Write(outputstring);
+            //}
 
             return outputstring;
         }
