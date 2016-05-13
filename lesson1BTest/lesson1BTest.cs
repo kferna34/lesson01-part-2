@@ -5,6 +5,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace lesson1BTest
 {
+    /**
+    *use to test the lesson 1 project
+    *for dev purposes
+    
+    */
     [TestClass]
     public class lesson1BTest
     {
