@@ -16,5 +16,11 @@ namespace week01_02
         static void Main(string[] args)
         {
         }
+        public static string GetUserName()
+        {
+            //initialize var
+            string UserName = "";
+            UserName= Console.ReadLine();
+        }
     }
 }
