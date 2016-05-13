@@ -30,6 +30,7 @@ namespace week01_02
             Console.Write("Enter UserName:");
             UserName = Console.ReadLine();
 
+            //shows the username entered
             Console.WriteLine("/n========================");
             Console.WriteLine("You entered:" + UserName);
 
